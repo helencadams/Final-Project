@@ -10,5 +10,17 @@
 
 .shoe-price {
   background-color: #ff512f;
-  height: 500px;
+  height: 700px;
+}
+
+.first-shoe {
+  text-decoration: underline;
+}
+
+.second-shoe {
+  text-decoration: underline;
+}
+
+.third-shoe {
+  text-decoration: underline;
 }
