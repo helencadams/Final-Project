@@ -40,3 +40,9 @@ header {
   text-decoration: underline;
   color: white;
 }
+
+.comingsoon {
+  font-size: 15px;
+  color: maroon;
+  line-height: normal;
+}
