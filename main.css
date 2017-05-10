@@ -1,6 +1,16 @@
+body {
+  padding: 0px 300px;
+}
+
+header {
+  background-color: white;
+
+}
+
 .shoe1 {
-  background-color: #ff512f;
+  background-color:  #ff512f;
   height: 300px;
+  padding: 80px 350px;
 }
 
 .white-space {
@@ -10,7 +20,9 @@
 
 .shoe-price {
   background-color: #ff512f;
+  color: white;
   height: 700px;
+  padding: 80px 450px;
 }
 
 .first-shoe {
@@ -23,4 +35,9 @@
 
 .third-shoe {
   text-decoration: underline;
+}
+
+.amount {
+  text-decoration: underline;
+  color: white;
 }
