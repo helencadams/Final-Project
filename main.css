@@ -27,6 +27,27 @@ header {
   margin-left: 40px;
 }
 
+.middle-info {
+  font-family: monospace;
+  padding-left: 100px;
+
+}
+
+.what-our-customers {
+  padding-top: 30px;
+
+}
+
+.dont-take-our {
+  padding-bottom: 30px;
+  padding-right: 30px;
+
+}
+
+.find-your-shoe {
+  padding-top: 30px;
+
+}
 .product-details {
   display: inline-block;
   color: brown;
@@ -86,7 +107,7 @@ header {
   padding-top: 20px;
 }
 
-.bottom-nav {
+.side-nav {
   display: inline-block;
   float: right;
   margin-top: 15px;
