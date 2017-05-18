@@ -9,14 +9,16 @@ header {
   width: 55px;
 }
 
+
 .section1 {
-  background-color:  #ff512f;
+  background:linear-gradient(to right, #e4256b, #ff512f);
+  padding-bottom: 30px;
 }
 
 .shoe1-image {
   width: 450px;
   padding-right: 50px;
-  padding-left: 88px;
+  padding-left: 289px;
 
 }
 
@@ -71,31 +73,24 @@ header {
   padding-right: 60px;
 }
 .shoe-price {
-  background-color: #ff512f;
+  background:linear-gradient(to right, #e4256b, #ff512f);
   color: white;
+  padding-left: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.first-shoe {
-  text-decoration: underline;
-}
-
-.second-shoe {
-  text-decoration: underline;
-}
-
-.third-shoe {
-  text-decoration: underline;
-}
 
 .amount {
-  text-decoration: underline;
   color: white;
+  margin: 0px;
 }
 
 .comingsoon {
   font-size: 15px;
   color: maroon;
   line-height: normal;
+  margin: 0px;
 }
 
 .topnav {
@@ -153,9 +148,6 @@ header {
   display: inline-block;
 }
 
-p {
-  padding-left: 103px;
-}
 
 .lorem {
   width: 331px;
@@ -183,4 +175,101 @@ p {
 .back-to {
   font-family: monospace;
   color: white;
+  padding-left: 306px;
+}
+
+.funny {
+  display: inline-block;
+}
+
+.nimble {
+  display: inline-block;
+}
+
+.cute {
+  display: inline-block;
+}
+
+.shoe2-image {
+  width: 300px;
+  padding-right: 85px;
+}
+
+.shoe3-image {
+  width: 300px;
+  padding-right: 85px;
+}
+
+.shoe4-image {
+  width: 300px;
+}
+
+.bottom-logo-sneaker {
+  width:50px;
+}
+
+.bottom-nav {
+  display: inline-block;
+}
+
+.quick-120 {
+  display: inline-block;
+  font-family: monospace;
+  font-size: 16px;
+  color: white;
+}
+
+.buy-now-top {
+  display: inline-block;
+  font-family: monospace;
+  margin-left: 50px;
+  background: white;
+  width: 94px;
+  height: 34px;
+  border-radius: 6%;
+  padding-top: 17px;
+  font-size: 16px;
+  padding-left: 28px;
+  color: #ff512f;
+}
+
+.hover-effect {
+  /*background-color: green;*/
+  background: linear-gradient(to right, #e4256b, #ff512f);
+  color: white;
+  border-style: solid;
+
+}
+
+.shop-recomended {
+  background-color: rgba(255, 81, 47, 0.12);
+  margin: 0px;
+  padding-left: 580px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: monospace;
+}
+
+.first-shoe {
+  margin: 0px;
+}
+
+.second-shoe {
+  margin: 0px;
+}
+
+.third-shoe {
+  margin: 0px;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.cart-image {
+  width: 15px;
 }

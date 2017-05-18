@@ -4,6 +4,8 @@
   <head>
       <title>Foundations Website</title>
       <link rel="stylesheet" href="main.css">
+      <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
 
 
   </head>
@@ -24,6 +26,7 @@
       <div class="side-nav">
         <a class="help">Help</a>
         <a class="my-account">My Account</a>
+        <img class="cart-image"src="./images/cart.jpg" alt="cartimage"/>
         <a class="shopping-cart">Shopping Cart</a>
       </div>
 
@@ -39,9 +42,12 @@
           <h4 class="spring-summer">Spring/Summer</h4>
           <h6 class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           </h6>
+           <div class="price-button">
+              <p class="quick-120">$120.00</p>
+              <p class="buy-now-top">Buy Now</p>
 
-             </h6>
-
+           </div>
         </div>
 
 
@@ -66,31 +72,33 @@
             Don't take our word for it! Read what our customers have been saying about our product. We guarantee you won't be disapointed in your purchase.
           </p>
       </div>
+      <h1 class="shop-recomended">Shop Recomended Shoes</h1>
     </section>
 
     <section class="shoe-price">
         <div class="funny">
           <img class="shoe2-image"src="./images/shoe2.png" alt="shoe2"/>
           <h4 class="first-shoe">Funny Sneakers</h4>
-          <p class="comingsoon">Spring/Summer 2017</p>
           <p class="amount">$125.00</p>
+          <p class="comingsoon">Spring/Summer 2017</p>
+
         </div>
         <div class="nimble">
-          <img src="./images/shoe3.png" alt="shoe3">
+          <img class="shoe3-image"src="./images/shoe3.png" alt="shoe3">
           <h4 class="second-shoe">Nimble Sneakers</h4>
           <p class="comingsoon">Spring/Summer 2017</p>
           <p class="amount">$125.00</p>
         </div>
         <div class="cute">
-          <img src="./images/shoe4.png" alt="shoe4">
+          <img class="shoe4-image"src="./images/shoe4.png" alt="shoe4">
           <h4 class="third-shoe">Cute Sneakers</h4>
           <p class="comingsoon">Spring/Summer 2017</p>
           <p class="amount">$125.00</p>
         </div>
     </section>
 
-  <footer>
-    <h1><img src="./images/logo.jpg" alt="sneakerslogo" style="width:50px;height:25px;"></h1>
+  <footer class='footer'>
+    <img class="bottom-logo-sneaker"src="./images/logo.jpg" alt="sneakerslogo">
 
     <div class="bottom-nav">
       <a class="men">Men</a>
@@ -99,9 +107,9 @@
       <a class="girls">Girls</a>
       <a class="customize">Customize</a>
     </div>
-  </footer
+  </footer>
 
 
-
+  <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
